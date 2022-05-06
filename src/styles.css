@@ -58,4 +58,13 @@
     font-family: "BebasNeue";
     text-shadow: 2px 2px 1px banner;
   }
+
+  .card {
+    @apply flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5 pl-5 pr-5 mt-10 cursor-pointer transition duration-300;
+  }
+
+  .card-icon {
+    font-family: "WebSymbolsRegular";
+    @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300;
+  }
 }
