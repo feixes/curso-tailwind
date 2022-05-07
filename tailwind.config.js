@@ -65,10 +65,10 @@ module.exports = {
                 },
                 showCardIcon: {
                     'from': { transform: 'translateY(-300%)' },
-                    'to': { transform: 'translateY(10%)' }
+                    'to': { transform: 'translateY(0%)' }
                 },
                 showCardCategory: {
-                    'from': { transform: 'translateX(-300%)' },
+                    'from': { transform: 'translateY(-300%)' },
                     'to': { transform: 'translateY(0%)' }
                 }
             },
