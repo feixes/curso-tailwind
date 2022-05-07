@@ -124,4 +124,13 @@
   .login-input {
     @apply block mx-auto mt-5 w-10/12 h-8 border border-gray-300 shadow-inner rounded pl-8 text-gray-500 transition duration-300 outline-none focus:outline-none focus:text-gray-600;
   }
+
+  .login-btn {
+    font-family: "TrebuchetMS";
+    @apply w-24 h-8 mt-5 ml-5 mb-5 text-center text-white text-base border border-azul-oscuro rounded-none cursor-pointer font-light bg-gradient-to-b from-azul-claro to-azul-oscuro transition duration-300 hover:shadow-md;
+  }
+
+  .login-link {
+    @apply block ml-4 text-sm text-gray-600 hover:underline hover:text-azul-oscuro;
+  }
 }
