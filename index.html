@@ -148,18 +148,15 @@
     <!-- Inicio contenido principal -->
     <main class="container w-11/12 flex flex-row mx-auto mt-5">
       <!-- Inicio Barra lateral -->
-      <aside
-        id="lateral"
-        class="border-4 border-red-500 flex-none order-2 w-72 min-h-full"
-      >
-        <h3>BUSCAR</h3>
+      <aside id="lateral" class="flex-none order-2 w-72 min-h-full">
+        <h3 class="aside-header">BUSCAR</h3>
         <div id="search">
           <form action="">
             <input type="text" />
             <input type="button" value="Buscar" />
           </form>
         </div>
-        <h3>LOGIN</h3>
+        <h3 class="aside-header">LOGIN</h3>
         <div id="login">
           <form action="">
             <label for="email">Usuario</label>
@@ -172,7 +169,7 @@
             <a href="#">Has olividado tu contraseña?</a>
           </form>
         </div>
-        <h3>REDES SOCIALES</h3>
+        <h3 class="aside-header">REDES SOCIALES</h3>
         <div id="social">
           <div class="twitter">
             <a href="#">Twitter</a>
@@ -187,28 +184,52 @@
             <p>Youtube</p>
           </div>
         </div>
-        <h3>PATROCINADORES</h3>
+        <h3 class="aside-header">PATROCINADORES</h3>
         <div id="sponsors"></div>
       </aside>
       <!-- Fin Barra lateral -->
       <!-- Inicio artículos -->
       <section class="order-1 flex-grow mr-10">
         <h2 class="article-header">Últimos artículos</h2>
-        <article
-          class="w-full h-auto border border-gray-200 m-10 mx-auto p-2.5 bg-white text-black shadow-md"
-        >
-          <div
-            class="float-right bg-gray-800 h-10 leading-6 p-2 text-white -m-2.5 text-sm rounded-bl-lg"
-          >
-            <span class="m-2.5">Fecha: 07 may</span>
-            <span class="m-2.5">Categoría: Pruebas</span>
+        <article class="article-item">
+          <div class="article-data">
+            <span>Fecha: 07 may</span>
+            <span>Categoría: Pruebas</span>
           </div>
-          <h4 class="block m-1 text-2xl">
-            <a href="#" class="font-semibold text-azul-oscuro hover:underline"
-              >Título del artículo</a
-            >
+          <h4 class="article-head">
+            <a href="#" class="">Título del artículo</a>
           </h4>
-          <p class="block mt-3 mb-3 text-base font-sans font-normal">
+          <p class="article-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            modi sapiente quas dicta dolore molestiae praesentium iste nulla.
+            Rerum, totam enim laborum id amet neque quis! Quibusdam dolorum
+            aspernatur totam.
+          </p>
+        </article>
+        <article class="article-item">
+          <div class="article-data">
+            <span>Fecha: 07 may</span>
+            <span>Categoría: Pruebas</span>
+          </div>
+          <h4 class="article-head">
+            <a href="#" class="">Título del artículo</a>
+          </h4>
+          <p class="article-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            modi sapiente quas dicta dolore molestiae praesentium iste nulla.
+            Rerum, totam enim laborum id amet neque quis! Quibusdam dolorum
+            aspernatur totam.
+          </p>
+        </article>
+        <article class="article-item">
+          <div class="article-data">
+            <span>Fecha: 07 may</span>
+            <span>Categoría: Pruebas</span>
+          </div>
+          <h4 class="article-head">
+            <a href="#" class="">Título del artículo</a>
+          </h4>
+          <p class="article-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
             modi sapiente quas dicta dolore molestiae praesentium iste nulla.
             Rerum, totam enim laborum id amet neque quis! Quibusdam dolorum

@@ -83,4 +83,32 @@
     font-family: "BebasNeue";
     background: url("../img/pxgray.png"), white;
   }
+  .article-item {
+    @apply w-full h-auto border border-gray-200 m-10 mx-auto p-2.5 bg-white text-black shadow-md;
+  }
+  .article-data {
+    @apply float-right bg-gray-800 h-10 leading-6 p-2 text-white -m-2.5 text-sm rounded-bl-lg;
+  }
+
+  .article-data span {
+    @apply m-2.5;
+  }
+
+  .article-head {
+    @apply block m-1 text-2xl;
+  }
+
+  .article-head a {
+    @apply font-semibold text-azul-oscuro hover:underline;
+  }
+
+  .article-description {
+    @apply block mt-3 mb-3 text-base font-sans font-normal;
+  }
+
+  .aside-header {
+    @apply block h-11 leading-10 shadow-header3D text-3xl font-medium tracking-widest pl-3.5 pt-1 mb-3.5 border;
+    font-family: "BebasNeue";
+    background: url("../img/pxgray.png"), white;
+  }
 }
