@@ -115,4 +115,13 @@
   .aside-box {
     @apply w-10/12 h-60 mx-auto mt-5 pt-1 bg-white shadow-box mb-7;
   }
+
+  .login-icon {
+    font-family: "WebSymbolsRegular";
+    @apply text-center absolute ml-7 mt-1 h-8;
+  }
+
+  .login-input {
+    @apply block mx-auto mt-5 w-10/12 h-8 border border-gray-300 shadow-inner rounded pl-8 text-gray-500 transition duration-300 outline-none focus:outline-none focus:text-gray-600;
+  }
 }
