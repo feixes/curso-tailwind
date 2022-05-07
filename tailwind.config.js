@@ -22,7 +22,8 @@ module.exports = {
                 "from-below": "fromBelow 500ms linear",
                 "from-right": "fromRight 500ms linear",
                 "back-banner": "backBanner 10000ms linear",
-                "text-banner": "showBannerText 10000ms linear"
+                "text-banner": "showBannerText 10000ms linear",
+                "show-card-icon": "showCardIcon 300ms linear",
             },
             keyframes: {
                 fromBelow: {
@@ -60,6 +61,10 @@ module.exports = {
                         color: 'white',
                         opacity: 1
                     }
+                },
+                showCardIcon: {
+                    'from': { transform: 'translateY(-300%)' },
+                    'to': { transform: 'translateY(0%)' }
                 }
             },
         }
@@ -67,5 +72,9 @@ module.exports = {
     variants: {
         animation: ['responsive', 'hover', 'group-hover'],
         animate: ['responsive', 'hover', 'group-hover'],
+        fontSize: ['responsive', 'hover', 'group-hover'],
+        transform: ['responsive', 'hover', 'group-hover'],
+        scale: ['responsive', 'hover', 'group-hover'],
+        padding: ['responsive', 'hover', 'group-hover'],
     }
 }
