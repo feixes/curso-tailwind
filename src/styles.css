@@ -77,4 +77,10 @@
     @apply text-center text-azul-oscuro text-base transition duration-300 lg:text-sm lg:mt-1.5 lg:block md:hidden xs:hidden;
     font-family: "TrebuchetMS";
   }
+
+  .article-header {
+    @apply bebas w-full h-20 text-center block text-4xl font-normal tracking-widest pt-5 border shadow-header3D;
+    font-family: "BebasNeue";
+    background: url("../img/pxgray.png"), white;
+  }
 }
