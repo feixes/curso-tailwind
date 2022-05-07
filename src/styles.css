@@ -60,20 +60,21 @@
   }
 
   .card {
-    @apply group flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5 pl-5 pr-5 mt-10 cursor-pointer transition duration-300 hover:bg-black pt-5;
+    @apply group flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5 pl-5 pr-5 mt-10 cursor-pointer transition duration-300 hover:bg-black pt-5 md:h-40 md:m-2 lg:h-80 lg:m-5 xs:h-40 xs:m-2;
   }
 
   .card-icon {
     font-family: "WebSymbolsRegular";
-    @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300;
+    @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300 md:mt-2 md:h-20 lg:mt-12 lg:h-32 xs:mt-2 xs:h-20;
   }
 
   .card-category {
-    @apply w-full h-12 text-xl font-bold text-center text-azul-oscuro transition duration-300;
+    @apply w-full h-12 text-xl font-bold text-center text-azul-oscuro transition duration-300 lg:text-lg md:h-6 md:text-base lg:h-12 xs:h-6 xs:text-base;
+    font-family: "TrebuchetMS";
   }
 
   .card-description {
-    @apply text-center text-azul-oscuro text-base transition duration-300;
+    @apply text-center text-azul-oscuro text-base transition duration-300 lg:text-sm lg:mt-1.5 lg:block md:hidden xs:hidden;
     font-family: "TrebuchetMS";
   }
 }
