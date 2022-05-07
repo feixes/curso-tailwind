@@ -111,4 +111,8 @@
     font-family: "BebasNeue";
     background: url("../img/pxgray.png"), white;
   }
+
+  .aside-box {
+    @apply w-10/12 h-60 mx-auto mt-5 pt-1 bg-white shadow-box mb-7;
+  }
 }
