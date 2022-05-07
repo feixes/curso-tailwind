@@ -142,4 +142,34 @@
   .social-overlay {
     @apply block absolute h-10 pl-2 pr-2 pt-1 ml-16 -mt-14 font-sans font-bold tracking-wide shadow-md border-4 border-white text-gray-700 bg-gray-100 opacity-0 transform -translate-x-3/4 transition duration-300 cursor-pointer;
   }
+
+  .footer-box {
+    font-family: "TrebuchetMS";
+    @apply flex-1 w-80 h-96 m-10 text-center text-white;
+  }
+
+  .footer-header {
+    font-family: "BebasNeue";
+    @apply tracking-wide text-center text-4xl text-black rounded-md mb-4 p-1.5;
+    background: url("../img/pxgray.png"), white;
+  }
+
+  .footer-menu {
+    @apply text-left m-5 text-2xl;
+  }
+
+  .footer-menu li {
+    @apply mt-3 p-1 border-b-2 border-gray-400 transition duration-300;
+  }
+
+  .footer-menu li a {
+    @apply block h-10 transition duration-300 text-azul-claro hover:text-white;
+  }
+
+  .browsers a {
+    @apply flex-1 mb-1.5;
+  }
+  .browsers a img {
+    @apply w-11;
+  }
 }
