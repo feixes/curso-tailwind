@@ -24,6 +24,7 @@ module.exports = {
                 "back-banner": "backBanner 10000ms linear",
                 "text-banner": "showBannerText 10000ms linear",
                 "show-card-icon": "showCardIcon 300ms linear",
+                "show-card-category": "showCardCategory 400ms linear",
             },
             keyframes: {
                 fromBelow: {
@@ -64,6 +65,10 @@ module.exports = {
                 },
                 showCardIcon: {
                     'from': { transform: 'translateY(-300%)' },
+                    'to': { transform: 'translateY(10%)' }
+                },
+                showCardCategory: {
+                    'from': { transform: 'translateX(-300%)' },
                     'to': { transform: 'translateY(0%)' }
                 }
             },
